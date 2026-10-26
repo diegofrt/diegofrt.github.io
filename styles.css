@@ -21,6 +21,8 @@ a:hover { color: #064d54; }
 nav { display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: flex-end; }
 nav a { color: var(--muted); text-decoration: none; font-size: .88rem; }
 nav a:hover { color: var(--ink); }
+nav .nav-cv { color: #fff; background: var(--accent); padding: .28rem .55rem; border-radius: 3px; font-weight: 700; }
+nav .nav-cv:hover { color: #fff; background: #07545b; }
 .layout { max-width: var(--max); margin: auto; padding: 3.5rem 2rem 5rem; display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 5rem; }
 .sidebar { position: sticky; top: 5.8rem; align-self: start; }
 .portrait-wrap { width: 178px; height: 178px; overflow: hidden; border-radius: 50%; background: var(--wash); border: 5px solid var(--wash); margin-bottom: 1.2rem; }
