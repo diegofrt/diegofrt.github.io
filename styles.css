@@ -56,6 +56,10 @@ p { margin: 0 0 1rem; }
 .feature-note { border-left: 3px solid var(--accent); padding-left: 1rem; color: var(--muted); font-size: .9rem; }
 .feature-note span { display: block; color: var(--accent); text-transform: uppercase; letter-spacing: .1em; font-size: .66rem; font-weight: 750; margin-bottom: .5rem; }
 .output-list { display: grid; gap: 1rem; }
+.presentation-feature { margin: 1.4rem 0 1.6rem; padding: 0; }
+.presentation-feature img { display: block; width: 100%; max-height: 360px; object-fit: cover; object-position: center 58%; border: 1px solid var(--line); }
+.presentation-feature figcaption { padding: .8rem 1rem; background: var(--wash); color: var(--muted); font-size: .86rem; line-height: 1.45; border-left: 3px solid var(--accent); }
+.presentation-feature figcaption strong { color: var(--ink); }
 .output { padding: 1.15rem 1.25rem; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
 .output h3 { font-size: 1.08rem; margin-top: .6rem; }
 .output p { color: var(--muted); font-size: .92rem; }
@@ -63,8 +67,11 @@ p { margin: 0 0 1rem; }
 .review { color: #7b4d00; background: #fff2cf; }
 .prep { color: #315a83; background: #eaf2fa; }
 .poster { color: #23614b; background: #e6f4ed; }
+.published { color: #275b3b; background: #e4f1e7; }
 .collaboration { display: grid; grid-template-columns: 160px 1fr; gap: 1rem; border-top: 1px solid var(--line); padding-top: 1rem; color: var(--muted); font-size: .92rem; }
 .collaboration strong { color: var(--ink); }
+.education-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.education-list p { margin: 0; padding: 1rem; background: var(--wash); border-top: 3px solid var(--accent); font-size: .9rem; }
 .contact { padding-bottom: 1rem; }
 .site-footer { max-width: var(--max); margin: auto; border-top: 1px solid var(--line); padding: 1.2rem 2rem 2.5rem; display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: .78rem; }
 @media (max-width: 850px) {
@@ -86,6 +93,7 @@ p { margin: 0 0 1rem; }
   .identity { display: block; }
   .feature { grid-template-columns: 1fr; padding: 1.3rem; }
   .research-grid { grid-template-columns: 1fr; }
+  .education-list { grid-template-columns: 1fr; }
   .collaboration { grid-template-columns: 1fr; gap: .25rem; }
   .site-footer { padding-left: 1rem; padding-right: 1rem; display: block; }
   .site-footer span { display: block; margin-bottom: .35rem; }
